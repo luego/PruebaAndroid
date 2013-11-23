@@ -27,7 +27,7 @@ public class MainActivity extends Activity {
 	Location locPortalPrado;
 	Location locColegioHebreo;
 	
-	//varriables estaticas
+	//variables estaticas
 	final float CINCUENTA_MT = 50;
 	final float CIEN_MT = 100;
 	final float QUINIENTOS_MT = 500;
@@ -149,7 +149,7 @@ public class MainActivity extends Activity {
 	}
 
 	public Location localizacionBuilder(double lat, double log) {
-		Location loc = new Location(LocationManager.GPS_PROVIDER);
+		Location loc = new Location("");
 		loc.setLatitude(lat);
 		loc.setLongitude(log);
 		return loc;
