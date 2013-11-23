@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PruebaAndroid</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="mi_ubicacion_text">Mi Ubicación</string>
+    <string name="vacio_text">Empty</string>
+
+</resources>
